@@ -1,0 +1,31 @@
+<div class="container mt-4">
+    <div class="text-center bodng">
+        <h2 style="color: rgb(138, 117, 117);">Random Users</h2>
+    </div>
+<!-- <pre style="color: aliceblue;">{{user | json}}</pre> -->
+    <div class="row ">
+        <div class="col-2 mt-3"></div>
+
+        <div class="col-8 midl mt-3 text-center">
+
+          <div class="">
+            <img class="imager" width="250px" height="250px" [src]="user.image" alt="no">
+          </div>
+
+          <div class="row mt-4">
+            <div class="col-2"></div>
+            <div class="col-md-8">
+                <ul class="list-group list-group-flush unlsitr font4">
+                    <li class="list-group-item listr" style="font-size: 20px;">Name: {{ user.firstName}}</li>
+                    <li class="list-group-item listr" style="font-size: 20px;">Age: {{user.age}}</li>
+                    <li class="list-group-item listr" style="font-size: 20px;">{{user.email}}</li>
+                  </ul>
+                  <button (click)="refresh()" class="btn btn-secondary mt-3 font3">Click</button>
+            </div>
+            <div class="col-2"></div>
+          </div>
+
+        </div>
+        <div class="col-2 mt-3"></div>
+    </div>
+</div>

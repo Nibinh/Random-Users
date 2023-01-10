@@ -1,0 +1,24 @@
+.midl{
+    /* background-color: brown; */
+    width: 70%;
+    height: 500px;
+    border-radius: 50px;
+    background-image: linear-gradient(rgb(89, 63, 114), rgb(215, 215, 206));
+}
+
+
+.imager{
+    border-radius: 52%;
+    border:  solid 4px transparent;
+}
+.imager:hover{
+    border:  solid 4px rgb(44, 60, 44);
+}
+
+.listr{
+    background-color:rgb(97, 90, 104);
+}
+
+.unlsitr{
+    border-radius: 100%;
+}

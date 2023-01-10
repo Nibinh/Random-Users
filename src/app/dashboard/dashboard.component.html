@@ -1,0 +1,35 @@
+
+<div class="container">
+
+  <div class="row">
+        <div class="text-center mt-3">
+            <h1 class="bodng" style="color: rgb(138, 117, 117);">Dummy Users</h1>
+        </div>
+        <div class="text-center">
+            <button type="button" class="btn btn-secondary font3" routerLink="/random/rand">Random</button>
+        </div>
+  </div>
+    <hr style="color: white;">
+<!-- <pre>{{allContacts | json}}</pre> -->
+    <div class="row mt-5 mb-5">
+        <div class="col-md-6 mt-3" *ngFor="let contacts of allContacts">
+            <div class="card list-group-item-secondary bg-dark" >
+                <div class="card-body">
+                 <div class="row align-items-center">
+                    <div class="col-md-4">
+                        <img height="150px" width="130px" [src]="contacts.image" alt="no image">
+                    </div>
+                    <div class="col-md-8 align-items-center font4">
+                        <ul class="list-group">
+                            <li class="list-group-item">Name: {{contacts.firstName}}</li>
+                            <li class="list-group-item">Age: {{contacts.age}}</li>
+                            <li class="list-group-item">email: {{contacts.email}}</li>
+                           
+                          </ul>
+                    </div>
+                 </div>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>

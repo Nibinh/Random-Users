@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unna&display=swap');
+.hdng{
+    font-family: 'Cinzel', serif;
+}
+
+.bodng{
+    font-family: 'Moon Dance', cursive;
+}
+
+.font3{
+    font-family: 'Merriweather', serif;
+}
+
+.font4{
+    font-family: 'Unna', serif;
+}
